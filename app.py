@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return jsonify({
-        "message": "🚀 Welcome to FlaskApp AutoDeployer – Mini Dashboard API Version 1"
+        "message": "🚀 Welcome to FlaskApp AutoDeployer – Mini Dashboard API Version"
     })
 
 @app.route('/health')
@@ -18,8 +18,8 @@ def health_check():
 @app.route('/api/users')
 def get_users():
     users = [
-        {"id": 1, "name": "Priyam", "role": "DevOps Engineer"},
-        {"id": 2, "name": "Jack", "role": "AI Engineer"}
+        {"id": 1, "name": "Tejaswi Pathak", "role": "DevOps Engineer"},
+        {"id": 2, "name": "Alex Robert", "role": "Data Science Engineer"}
     ]
     return jsonify(users)
 
