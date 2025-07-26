@@ -44,7 +44,6 @@ Ensure the following are installed:
 
 ```bash
 git clone https://github.com/TejPATHAK/Project-Devops-Flaskapp.git
-cd Project-1
 ```
 
 ### Build Docker Image
