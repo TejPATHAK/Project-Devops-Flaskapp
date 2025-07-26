@@ -12,7 +12,7 @@ pipeline {
         stage('📥 Clone Repository') {
             steps {
                 echo "🔄 Cloning Git repository..."
-                git branch: 'main', url: 'https://github.com/priyam930/Devops-Project-1-Flaskapp-.git'
+                git branch: 'main', url: 'https://github.com/TejPATHAK/Project-Devops-Flaskapp.git'
             }
         }
 
