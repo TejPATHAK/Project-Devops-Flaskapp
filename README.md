@@ -1,125 +1,68 @@
+# 🚀 FlaskApp DevOps Project  
 
-# DEVOPS-PROJECT-1-FLASKAPP-
+*Deploy with confidence, innovate without limits.*
 
-*Streamlining Deployment, Empowering Continuous Innovation*
-
-![Last Commit](https://img.shields.io/badge/last%20commit-today-brightgreen)
-![Python](https://img.shields.io/badge/python-85.4%25-blue)
-![Languages](https://img.shields.io/badge/languages-2-informational)
-
----
-
-## 🔧 Built with
-
-![Flask](https://img.shields.io/badge/-Flask-black?logo=flask)
-![Markdown](https://img.shields.io/badge/-Markdown-black?logo=markdown)
-![Jenkins](https://img.shields.io/badge/-Jenkins-red?logo=jenkins)
-![Pytest](https://img.shields.io/badge/-Pytest-blue?logo=pytest)
-![Docker](https://img.shields.io/badge/-Docker-blue?logo=docker)
-![Python](https://img.shields.io/badge/-Python-blue?logo=python)
+![Last Commit](https://img.shields.io/badge/last%20update-today-success)
+![Python Code](https://img.shields.io/badge/codebase-85.4%25%20Python-blue)
+![Stack](https://img.shields.io/badge/tech-stack-2%20languages-informational)
 
 ---
 
-## 📚 Table of Contents
+## 🛠️ Tech Stack
 
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-black?style=flat&logo=flask)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
+![Pytest](https://img.shields.io/badge/-Pytest-0A9EDC?style=flat&logo=pytest)
+![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat&logo=markdown)
+
+---
+
+## 📖 Table of Contents
+
+- [Project Summary](#project-summary)
+- [Setup Guide](#setup-guide)
+  - [Requirements](#requirements)
+  - [Clone & Build](#clone--build)
+  - [Local Run](#local-run)
   - [Testing](#testing)
----
-
-## 🧠 Overview
-
-**Devops-Project-1-Flaskapp** is a toolkit that simplifies the deployment, management, and monitoring of Flask applications within containerized environments. It integrates Docker, Jenkins, and Pytest to ensure scalable and automated workflows.
-
-### Why use this?
-
-- 🧩 **Containerization**: Consistent deployment environments.
-- 🚀 **CI/CD Automation**: Jenkins pipelines for build/test/deploy.
-- 📊 **Health Endpoints**: `/health`, `/metrics`, `/logs`.
-- ⚙️ **Centralized Config**: Easy config management.
-- 📄 **Logging**: Simple and centralized.
+- [App Features](#app-features)
+- [Final Remarks](#final-remarks)
 
 ---
 
-## 🚀 Getting Started
+## 📘 Project Summary
 
-### 🧱 Prerequisites
+**FlaskApp DevOps Project** is crafted to streamline the end-to-end workflow of a microservice using **Flask**, **Docker**, and **Jenkins**. It supports automated deployment, health monitoring, and testing pipelines, all tailored for scalable environments.
 
-Make sure you have:
+### 🌟 Highlights
 
-- Python 3+
-- pip
-- Docker
-- Jenkins (optional for CI/CD)
+- 📦 **Dockerized Deployments**: Seamless portability and environment consistency  
+- 🔁 **CI/CD Integration**: Jenkins-powered automation  
+- 📍 **Health Check Endpoints**: Built-in diagnostics (`/health`, `/metrics`, `/logs`)  
+- 🔧 **Unified Configuration**: Simplified config management  
+- 📑 **Central Logging**: View logs in one place  
 
 ---
 
-## 📥 Installation
+## ⚙️ Setup Guide
 
-### Clone the Repo
+### ✅ Requirements
+
+Before proceeding, ensure the following are installed:
+
+- Python (v3 or later)  
+- pip (Python package manager)  
+- Docker (for container builds)  
+- Jenkins (recommended for CI/CD workflows)  
+
+---
+
+## 🧱 Clone & Build
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/priyam930/Devops-Project-1-Flaskapp-
-cd Devops-Project-1-Flaskapp-
-```
-
-### Docker Build
-
-```bash
-docker build -t devops-flask-app .
-```
-
-### Local Run
-
-```bash
-pip install -r requirements.txt
-python app.py
-```
-
----
-
-## ▶️ Usage
-
-### Docker Run
-
-```bash
-docker run -p 5000:5000 devops-flask-app
-```
-
-### Flask App Endpoints
-
-- `/`: Hello World
-- `/health`: App status
-- `/metrics`: App performance
-- `/logs`: Access log output
-
----
-
-## ✅ Testing
-
-Run with:
-
-```bash
-pytest test_app.py
-```
-
-Run tests inside Docker (if defined):
-
-
-
-
----
-
-## 🏁 Final Notes
-
-- 📦 Easily deployable Flask microservice.
-- 🧪 Tested with Pytest.
-- 🐳 Containerized for portability.
-- 🔄 CI/CD ready with Jenkins.
-
----
-
-⬆️ [Return to Top](#devops-project-1-flaskapp-)
+git clone https://github.com/TejPATHAK/Project-Devops-Flaskapp.git
+cd project-1
